@@ -1,0 +1,25 @@
+---
+title: data4vn
+description: Snowlake is a multi-concept and powerful site template contains  rich
+  layouts with possibility of unlimited combinations & beautiful elements.
+black_logo_1x: "/assets/images/logo.png"
+black_logo_2x: "/assets/images/logo@2x.png"
+light_logo_1x: "/assets/images/logo-light.png"
+light_logo_2x: "/assets/images/logo-light@2x.png"
+copyright_text: "© 2021 data4vn. All rights reserved."
+google_analytics:
+  enable: false
+  key: UA-664136761-1
+
+author_page_header:
+  header_background_image: "/assets/images/art/bg31.jpg"
+gallery:
+  images:
+  - img: "/assets/images/art/z1.svg"
+  - img: "/assets/images/art/z2.svg"
+  - img: "/assets/images/art/z3.svg"
+  - img: "/assets/images/art/z4.svg"
+  - img: "/assets/images/art/z5.svg"
+  - img: "/assets/images/art/z6.svg"
+  - img: "/assets/images/art/z7.svg"
+  - img: "/assets/images/art/z8.svg"

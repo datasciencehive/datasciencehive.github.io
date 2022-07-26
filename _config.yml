@@ -1,0 +1,45 @@
+---
+baseurl: ''
+url: http://www.data4vn.com/
+permalink: "/:title"
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-paginate-v2
+- jekyll-archives
+collections:
+  authors:
+    output: true
+  shop_items:
+    output: true
+    permalink: "/shop/:name"
+pagination:
+  enabled: true
+  debug: true
+  collection: posts
+  per_page: "5"
+  permalink: "/page/:num/"
+  title: ":title - page :num"
+  limit: "0"
+  sort_field: date
+  sort_reverse: true
+  category: posts
+  tag: ''
+  locale: ''
+  trail:
+    before: "2"
+    after: "2"
+  extension: html
+  indexpage: index
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+jekyll-archives:
+  enabled: all
+  layout: category
+  permalinks:
+    category: "/category/:name/"
+feed:
+  collections:
+    posts:
+      path: "/index.xml"
