@@ -10,3 +10,5 @@ _site
 vendor/
 Gemfile.lock
 #Gemfile
+
+.ipynb_checkpoints
