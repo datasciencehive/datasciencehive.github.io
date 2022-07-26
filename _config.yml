@@ -1,6 +1,6 @@
 ---
 baseurl: ''
-url: http://www.data4vn.com/
+url: http://www.datasciencehive.com/
 permalink: "/:title"
 theme: minima
 plugins:
