@@ -6,7 +6,7 @@ black_logo_1x: "/assets/images/logo.png"
 black_logo_2x: "/assets/images/logo@2x.png"
 light_logo_1x: "/assets/images/logo-light.png"
 light_logo_2x: "/assets/images/logo-light@2x.png"
-copyright_text: "© 2021 data4vn. All rights reserved."
+copyright_text: "© 2021 Data Science Hive. All rights reserved."
 google_analytics:
   enable: false
   key: UA-664136761-1
