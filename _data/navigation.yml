@@ -7,7 +7,7 @@ main_menu:
   url: "#"
   menu_type: 'simple'
 - text: Khoá học
-  url: "portfolios"
+  url: "#courses"
   menu_type: "simple"
 - text: Đăng ký
   url: "#"
