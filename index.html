@@ -79,13 +79,6 @@ video_area:
   sub_title: Xem demo khoá học
   image: "/assets/images/art/bg25.jpg"
   video_url: https://www.youtube.com/watch?v=26TbMXXOe0I
-two_columns_two_area:
-  enable: true
-  title: "Why us"
-  sub_title: Tại sao chọn Data Science Hive
-  image: "/assets/images/art/about2.jpg"
-  description: |
-    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac
 portfolios_area:
   enable: true
   title: "Khoá học"
@@ -417,7 +410,6 @@ faq_area:
             <h3 class="display-3">{{columns_data_two.sub_title}}</h3>
             <div class="space20"></div>
             <div id="accordion-1" class="accordion-wrapper simple">
-            <p>{{page.about_us_area.description}}</p>
               {% for tabs_data in columns_data_two.tabs %}
               <div class="card">
                 <div class="card-header" id="accordion-heading-1-{{forloop.index}}">
