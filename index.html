@@ -11,6 +11,7 @@ hero_area:
   shape_image: "/assets/images/dummy.png"
   button_text: "Tìm hiểu thêm"
   button_url: "#"
+  section_id: "home"
 three_columns_area:
   enable: true
   title: "Who is it for"
@@ -223,6 +224,7 @@ faq_area:
 ---
 {% include header.html extra_class="absolute transparent nav-uppercase" logo_class="logo" %}
 {% if page.hero_area.enable %}
+<section id="{{page.hero_area.section_id}}">
 <div class="wrapper white-wrapper">
   <div class="rev_slider_wrapper fullscreen-container">
     <div id="slider7" class="rev_slider fullscreenbanner" data-version="5.4.7">
@@ -322,6 +324,7 @@ faq_area:
   <!-- /.rev_slider_wrapper -->
 </div>
 <!-- /.wrapper -->
+</section>
 {% endif %}
 <div class="wrapper white-wrapper">
   <div class="container inner">
