@@ -85,6 +85,7 @@ portfolios_area:
   sub_title: "Các khoá học đang được phát triển bởi Data Science Hive"
   button_text: "Đăng ký"
   button_url: "#"
+  section_id: "courses"
   projects:
 
     - title: "Nullam Mollis"
@@ -478,6 +479,7 @@ faq_area:
   <!-- /.wrapper -->
   {% endif %}
   {% if page.portfolios_area.enable %}
+  <section id="{{page.portfolios_area.section_id}}">
   <div class="wrapper white-wrapper" id="portfolio">
     <div class="container inner">
       <div class="row">
@@ -519,6 +521,7 @@ faq_area:
     <!-- /.container -->
   </div>
   <!-- /.wrapper -->
+  </section>
   {% endif %}
     {% if page.testimonials_area.enable %}
     <div class="wrapper white-wrapper inner">
