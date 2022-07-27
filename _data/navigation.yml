@@ -1,7 +1,7 @@
 ---
 main_menu:
 - text: Trang chủ
-  url: "#"
+  url: "#home"
   menu_type: 'simple'
 - text: Phương pháp học
   url: "#"
